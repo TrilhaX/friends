@@ -22,7 +22,8 @@ function TempestHubWl()
             "https://raw.githubusercontent.com/TrilhaX/AdvHub/main/adv.lua",
             "https://raw.githubusercontent.com/TrilhaX/Main/main/AFSXFreeVersion.lua",
             "https://raw.githubusercontent.com/TrilhaX/GPOPaid/main/GPOPaidMain.lua",
-            "https://raw.githubusercontent.com/TrilhaX/animechapions/main/main"
+            "https://raw.githubusercontent.com/TrilhaX/animechapions/main/main",
+            "https://raw.githubusercontent.com/TrilhaX/ElementDungeon/main/Main"
         }
 
         for _, url in ipairs(urls) do
