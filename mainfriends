@@ -1,8 +1,7 @@
 function TempestHubWl()
-    local key = "by0PpFoiV5BQ"
     local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
 
-    if key == "by0PpFoiV5BQ" and hwid then
+    if hwid then
         print("Whitelisted")
 
         local function makeHttpRequest(url)
@@ -19,11 +18,7 @@ function TempestHubWl()
         end
 
         local urls = {
-            "https://raw.githubusercontent.com/TrilhaX/AdvHub/main/adv.lua",
-            "https://raw.githubusercontent.com/TrilhaX/Main/main/AFSXFreeVersion.lua",
-            "https://raw.githubusercontent.com/TrilhaX/GPOPaid/main/GPOPaidMain.lua",
-            "https://raw.githubusercontent.com/TrilhaX/animechapions/main/main",
-            "https://raw.githubusercontent.com/TrilhaX/ElementDungeon/main/Main"
+            "https://raw.githubusercontent.com/TrilhaX/dragonsoul/main/main",
         }
 
         for _, url in ipairs(urls) do
